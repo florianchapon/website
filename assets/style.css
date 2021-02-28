@@ -86,7 +86,6 @@ header ul li a:hover{
 }
 
 .entry-page-image {
-	background-image: url(images/background.jpg);
     background-position: right bottom;
 	background-size: cover;
 	-webkit-background-size:cover;
