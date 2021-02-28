@@ -6,8 +6,8 @@ layout: default
 	
 		<div class="entry-page-image fixed">	
 			<div class="title-box">
-			<h1 class="site-title">Florian Chapon</h1>
-			<h2 class="site-description">Graphisme • Webdesign • Webdevelopment</h2>
+			<h1 class="site-title">{{page.heroheader.titre}}</h1>
+			<h2 class="site-description">{{page.heroheader.soustitre}}</h2>
 			</div>
 		</div><!-- .entry-page-image -->	
 	
@@ -191,46 +191,5 @@ layout: default
 	
 	
 	
-	<!-- footer -->
-	<div class="footer">
-		<div class="full-width">
-			<div style="float:left;">© <?php echo date("Y"); ?> Florian CHAPON, Lyon.</div>
-			<div style="float:right;">
-			<a href="https://fr.linkedin.com/in/florian-chapon-0370a680"><img src="theme/images/icons/linkedin.svg" style="width:32px;"/></a>
-			<a href="http://www.viadeo.com/profile/002d138jft6febr"><img src="theme/images/icons/viadeo.svg" style="width:32px;"/></a>
-			<a href="https://www.facebook.com/chaponf"><img src="theme/images/icons/facebook.svg" style="width:32px;"/></a>
-			</div>
-		<div style="clear: both" />
-		</div>
-	</div>	
-	<!-- fin footer -->
 	
 	
-	</div>
-	<!-- fin page -->
-	
-	</div>		
-	
-	
-	<script>
-	
-	function mail() {
-		var name = encodeURI(document.getElementById("name").value);
-		var email = encodeURI(document.getElementById("email").value);
-		var message = encodeURI(document.getElementById("message").value);
-			
-		var url = "pages/send.php?name="+name+"&email="
-					+email+"&message="
-					+message;
-					
-		$('#test').load(url);	
-		
-		document.getElementById("form").innerHTML = "<font color='green'><b>Mail correctly send.</b></font>";
-	
-	}
-	
-	</script>
-	
-	
-		
-	</body>

@@ -1,43 +1,34 @@
-<footer class="page-footer font-small red pt-4">
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-8 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <h5 class="text-uppercase">{{ site.footer.title }}</h5>
-        <p>{{ site.footer.description }}</p>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-4 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Réseaux sociaux</h5>
-        <ul class="list-unstyled">
-          {% for social in site.footer.social %}	
-          <li>
-            <a href="{{ social.link }}" target="_blank"><i class="fab {{ social.icon }}" aria-hidden="true"></i> {{ social.name }}</a>
-          </li>
-          {% endfor %} 
-        </ul>
-      </div>
-      <!-- Grid column -->
-
+<!-- footer -->
+<div class="footer">
+  <div class="full-width">
+    <div style="float:left;">© <?php echo date("Y"); ?> Florian CHAPON, Lyon.</div>
+    <div style="float:right;">
+    <a href="https://fr.linkedin.com/in/florian-chapon-0370a680"><img src="theme/images/icons/linkedin.svg" style="width:32px;"/></a>
+    <a href="http://www.viadeo.com/profile/002d138jft6febr"><img src="theme/images/icons/viadeo.svg" style="width:32px;"/></a>
+    <a href="https://www.facebook.com/chaponf"><img src="theme/images/icons/facebook.svg" style="width:32px;"/></a>
     </div>
-    <!-- Grid row -->
+  <div style="clear: both" />
   </div>
-  <!-- Footer Links -->
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">Copyright FleauxTV© {{ site.time | date: '%Y' }}<br/>Site réalisé par <a href="" class="text-danger" target="_blank">FleauxTV</a></div>
-  <!-- Copyright -->
-</footer>
+</div>	
+<!-- fin footer -->
+
+
+
+<script>
+
+function mail() {
+  var name = encodeURI(document.getElementById("name").value);
+  var email = encodeURI(document.getElementById("email").value);
+  var message = encodeURI(document.getElementById("message").value);
+    
+  var url = "pages/send.php?name="+name+"&email="
+        +email+"&message="
+        +message;
+        
+  $('#test').load(url);	
+  
+  document.getElementById("form").innerHTML = "<font color='green'><b>Mail correctly send.</b></font>";
+
+}
+
+</script>
