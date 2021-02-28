@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: FleauxTV/website
+  repo: florianchapon/website
   branch: master
 
 publish_mode: editorial_workflow

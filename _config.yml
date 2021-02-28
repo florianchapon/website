@@ -5,7 +5,7 @@ include:
   - _pages
   - _projets
 theme: jekyll-theme-cayman
-repository: FleauxTV/website
+repository: florianchapon/website
 header_pages:
   - about
 collections:
@@ -18,28 +18,14 @@ collections:
   projets:
     output: true 
     permalink: /:path/  
-title: FleauxTV - Graphiste, Motion designer & Monteur vidéo
+title: Florian Chapon • Graphiste, Webdesigner, Chimiste • Grenoble
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
-email: fleauxtv@gmail.com
-description: Je suis un Graphiste, Motion designer & monteur vidéo basé près de
-  Grenoble, FRANCE.  Vous trouverez sur ce site des exemples de réalisations,
-  ainsi que les projets sur  lesquelles j'ai eu le plaisir de collaborer.
-footer:
-  social:
-    - icon: fa-twitter
-      name: Twitter
-      link: https://twitter.com/FleauxTV
-    - link: https://www.youtube.com/user/FleauxTV
-      name: Youtube
-      icon: fa-youtube
-    - icon: fa-twitch
-      name: Twitch
-      link: https://www.twitch.tv/fleaux
-  title: FleauxTV
-  description: Graphic / motion designer, video editor
-google_analytics: "UA-90344648-2"  
+email: chapon.florian@gmail.com
+description: Portfolio de Florian Chapon, Webdesigner Graphiste, de formation Chimiste, à Lyon. 
+Création de sites web, Graphismes & Illustrations.
+
   
