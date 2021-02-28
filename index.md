@@ -1,39 +1,26 @@
 ---
-banniere:
-  titre: FleauxTV
-  soustitre: "Graphiste, motion designer et monteur vidéo. "
-  banniere: /uploads/banner.jpg
-miniatures:
-  titre: GRAPHIC DESIGN
-  description: Je réalises des éléments graphiques divers tels que des miniatures
-    de vidéo (youtube), des bannières, des éléments d'interfaces (overlay,
-    boutons...), ainsi que de la photo manipulation et de la retouche photo.
-  slider:
-    - image: /uploads/moman-1.jpg
-    - image: /uploads/fitness-1.jpg
-    - image: /uploads/pimousse-1.jpg
-    - image: /uploads/moman-2.jpg
-    - image: /uploads/fitness-2.jpg
-motion:
-  titre: MOTION DESIGN
-  description: Je réalises des animations personnalisées d'images et d’éléments 2D
-    ou 3D.  Cela peut être des animations de textes ou éléments d'interfaces
-    (transition, overlay, début de live...) ou la création de lower third
-    (réseaux sociaux...)
-  video: _BnHtA1dpbc
-montage:
-  titre: MONTAGE VIDEO
-  description: "Il s'agit de montage vidéo sur mesure, de tous types. Pour les
-    productions les plus travaillées (type \"edit\"), un accent sera
-    particulièrement mis sur la synchronisation avec la musique et le dynamisme.
-    Des montages plus sobres sont également possible (type best of, ou
-    condensé). "
-  video: Pb2ebg5akPE
-slogan: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et arcu
-  malesuada, interdum lorem et, elementum mauris. Aenean sit amet egestas felis.
-  Nulla ante justo, pulvinar ut rhoncus in, tristique egestas magna. Vivamus
-  ultrices lacus a ullamcorper lacinia. Quisque laoreet, lacus eu fringilla
-  vehicula, augue eros condimentum est, eget tristique elit ante quis lorem.
+heroheader:
+  titre: FLORIAN CHAPON
+  soustitre: Graphisme • Webdesign • Webdevelopment
+  banniere: /uploads/background.jpg
+intro: >-
+  Bienvenue sur mon portfolio.\
+
+  \
+
+  Je suis Florian Chapon, graphiste, webdesigner et chimiste basé à Lyon.\
+
+  Initialement issus d'un **cursus** orienté **chimie**, je me suis formé de manière autodidacte au **graphisme** ainsi qu'au **développement web**.\
+
+  \
+
+  Vous trouverez sur ce site mes différentes réalisations ainsi que les projets auxquels j'ai pu prendre part.\
+
+  N'hésitez pas à prendre contact avec moi.
+aboutme:
+  titre: ABOUT ME
+  liencv: a
+  image: /uploads/florian-chapon.jpg
 clients:
   - nom: MoMaN
     profession: Streameur
@@ -41,6 +28,10 @@ clients:
     social:
       - lien: https://twitter.com/MoMaNuS
         icone: fa-twitter
+banniere:
+  titre: FleauxTV
+  soustitre: "Graphiste, motion designer et monteur vidéo. "
+  banniere: /uploads/banner.jpg
 sectionclient:
   titre: Ils me font confiance !
   description: Voici quelques-unes des personnes avec qui j'ai eu l'occasion de collaborer.
@@ -133,4 +124,56 @@ sectionclient:
           icone: fa-twitter
         - lien: https://www.instagram.com/mane_aker/
           icone: fa-instagram
+miniatures:
+  titre: GRAPHIC DESIGN
+  description: Je réalises des éléments graphiques divers tels que des miniatures
+    de vidéo (youtube), des bannières, des éléments d'interfaces (overlay,
+    boutons...), ainsi que de la photo manipulation et de la retouche photo.
+  slider:
+    - image: /uploads/moman-1.jpg
+    - image: /uploads/fitness-1.jpg
+    - image: /uploads/pimousse-1.jpg
+    - image: /uploads/moman-2.jpg
+    - image: /uploads/fitness-2.jpg
+motion:
+  titre: MOTION DESIGN
+  description: Je réalises des animations personnalisées d'images et d’éléments 2D
+    ou 3D.  Cela peut être des animations de textes ou éléments d'interfaces
+    (transition, overlay, début de live...) ou la création de lower third
+    (réseaux sociaux...)
+  video: _BnHtA1dpbc
+montage:
+  titre: MONTAGE VIDEO
+  description: "Il s'agit de montage vidéo sur mesure, de tous types. Pour les
+    productions les plus travaillées (type \"edit\"), un accent sera
+    particulièrement mis sur la synchronisation avec la musique et le dynamisme.
+    Des montages plus sobres sont également possible (type best of, ou
+    condensé). "
+  video: Pb2ebg5akPE
+services:
+  - titre: WEBDESIGN
+    image: /uploads/webdesign.png
+    description: Une présence en ligne efficace est aujourd’hui indispensable pour
+      optimiser votre communication. En prenant soin d’utiliser les derniers
+      standards du web, je créé des interfaces intuitives afin d’améliorer
+      l’expérience d’utilisation, faisant de chaque site un lieu unique.
+  - titre: GRAPHISME
+    image: /uploads/graphism.png
+    description: Le design graphique reflète l’image de votre entreprise et vient
+      appuyer toutes les actions de communication. Il doit être unique et
+      répondre à certains codes professionnels, afin d’atteindre au mieux sa
+      cible. Je vous propose des designs originaux et professionnels pour y
+      parvenir.
+  - titre: CONSEILS - FORMATIONS
+    image: /uploads/training.png
+    description: Wordpress offre de nombreuses possibilités pour une variété de
+      projets. Que vous soyez un particulier ou un professionnel, je mets mon
+      expérience et mes compétences à votre service pour des formations et des
+      conseils quant à l’utilisation autonome et la personnalisation de votre
+      site Internet.
+slogan: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et arcu
+  malesuada, interdum lorem et, elementum mauris. Aenean sit amet egestas felis.
+  Nulla ante justo, pulvinar ut rhoncus in, tristique egestas magna. Vivamus
+  ultrices lacus a ullamcorper lacinia. Quisque laoreet, lacus eu fringilla
+  vehicula, augue eros condimentum est, eget tristique elit ante quis lorem.
 ---
