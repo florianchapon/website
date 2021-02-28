@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+      <!-- Include content from pages or posts -->
+            {{ content }}
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

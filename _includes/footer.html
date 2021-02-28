@@ -1,0 +1,43 @@
+<footer class="page-footer font-small red pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-8 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">{{ site.footer.title }}</h5>
+        <p>{{ site.footer.description }}</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Réseaux sociaux</h5>
+        <ul class="list-unstyled">
+          {% for social in site.footer.social %}	
+          <li>
+            <a href="{{ social.link }}" target="_blank"><i class="fab {{ social.icon }}" aria-hidden="true"></i> {{ social.name }}</a>
+          </li>
+          {% endfor %} 
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+  </div>
+  <!-- Footer Links -->
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Copyright FleauxTV© {{ site.time | date: '%Y' }}<br/>Site réalisé par <a href="" class="text-danger" target="_blank">FleauxTV</a></div>
+  <!-- Copyright -->
+</footer>

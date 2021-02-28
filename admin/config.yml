@@ -1,0 +1,140 @@
+backend:
+  name: github
+  repo: FleauxTV/website
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "uploads"
+
+collections:
+  - name: "websitesettings" # Settings site
+    label: "Settings du site"
+    files:
+      - label: "Settings"
+        name: "settings"
+        file: "_config.yml"
+        fields:
+          - {label: "titre", name: "title", widget: "string"}
+          - {label : "email", name: "email", widget: "string"}
+          - {label : "Description", name: "description", widget: "string"}
+          - label: "Footer info"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - label: "social"
+                name: "social"
+                widget: "list"
+                fields:
+                  - {label: "Icone font-awesome", name: "icon", widget: "string"}
+                  - {label: "Nom du lien", name: "name", widget: "string"}
+                  - {label: "Lien réseaux social", name: "link", widget: "string"}
+
+  - name: "Articles"
+    label: "Articles"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Auteur", name: "author", widget: "string"}
+      - {label: "Image d'en tête", name: "image", widget: "image"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+
+  - name: "Page"
+    label: "Pages"
+    folder: "_pages"
+    layout: page
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each pages
+      - {label: "Titre", name: "titre", widget: "string"}
+      - {label: "Image bannière", name: "banniere", widget: "image"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+  
+  - name: "homepage"
+    label: "Home page"
+    files:
+      - label: "Home page"
+        name: "home"
+        file: "index.md"
+        fields: # Fields of the home page
+          - label: "Banniere" # Field de la catégorie bannière 
+            name: "banniere"
+            widget: "object"
+            fields:
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Sous-titre", name: "soustitre", widget: "string"}
+              - {label: "Image", name: "banniere", widget: "image", required: false}
+          - label: "Miniatures" # Miniatures
+            name: "miniatures"
+            widget: "object"
+            fields:
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Nom projet", name: "projet", widget: "string", required: false}
+              - {label: "Lien projet", name: "lien", widget: "string", required: false}
+              - label: "slider"
+                name: "slider"
+                widget: "list"
+                fields: 
+                - {label: "Image", name: "image", widget: "image"}
+          - label : "Motion design" # Motion design
+            name: "motion"
+            widget: "object"
+            fields: 
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Lien projet", name: "lien", widget: "string", required: false}
+              - {label: "Video", name: "video", widget: "string"}
+          - label : "Montage video" # Montage
+            name: "montage"
+            widget: "object"
+            fields: 
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Lien projet", name: "lien", widget: "string", required: false}
+              - {label: "Video", name: "video", widget: "string"} 
+          - {label: "slogan", name: "slogan", widget: "markdown", required: false}  
+          - label: "Section client" # Clients
+            name: "sectionclient"
+            widget: "object"
+            fields: 
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown"}
+              - label: "Liste de clients"
+                name: "clients"
+                widget: "list"
+                fields:
+                  - {label: "Nom du client", name: "nom", widget: "string"}
+                  - {label: "Profession du client", name: "profession", widget: "string"} 
+                  - {label: "Image du client", name: "image", widget: "image"}
+                  - label: "Réseaux sociaux"
+                    name: "social"
+                    widget: "list"
+                    fields:
+                    - {label: "Icone font-awesome", name: "icone", widget: "string"}
+                    - {label: "Lien réseau", name: "lien", widget: "string"}     
+
+  - name: "projets"
+    label: "Projets"
+    folder: "_projets"
+    create: true
+    layout: project
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Image d'en tête", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - label: "Gallerie"
+        name: "gallerie"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Titre de l'image", name: "titre", widget: "string"}             
+      - {label: "Texte", name: "body", widget: "markdown"}
+
+

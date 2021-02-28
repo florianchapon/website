@@ -1,0 +1,5 @@
+# _site     a ajouter si on veut pas de rendu dans le dossier "site"
+.sass-cache
+.jekyll-metadata
+node_modules
+Gemfile.lock

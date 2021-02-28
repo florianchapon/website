@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="container my-5">
+    <div class="row">
+      <div class="col-lg-12 m-4">
+        <!-- BASE PROJET -->
+        <h1 class="text-center">{{ page.title | escape }}</h1>
+        
+        <div class="row">
+        {% if page.gallerie %}
+            {% for gallerie in page.gallerie %}
+            <div class="col-lg-4 my-2">
+                <a href="{{ site.baseurl }}{{ gallerie.image }}" data-toggle="lightbox">
+                    <img src="{{ site.baseurl }}{{ gallerie.image }}" class="img-fluid" alt="Responsive image">
+                </a>
+            </div>
+            {% endfor %}
+
+        {% else %} <!-- pas de else pour ne rien afficher -->
+        {% endif %}
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                {{ content }}
+            </div>
+        </div>        
+        <!-- FIN BASE PROJET -->
+  
+      </div>
+    </div>
+</div>
+
+<script>
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+</script>

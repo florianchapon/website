@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">FleauxTV</a>
+
+    {%- assign page_paths = site.header_pages -%}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <!-- Affichage des projets dans un sous-menu -->
+        {% if site.projets %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Réalisations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for projet in site.projets %}
+              <a class="dropdown-item" href="{{ site.baseurl }}{{ projet.url }}"> {{ projet.titre }}</a>
+            {% endfor %}
+          </div>
+        </li>
+        {% else %}
+        {% endif %}
+
+        <!-- Affichage des pages -->
+        {% for page in site.pages %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+          </li>
+        {% endfor -%}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>

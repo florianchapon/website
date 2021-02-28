@@ -1,0 +1,50 @@
+---
+layout: page
+title: Blog
+---
+
+<div class="container"> <!-- Article 1 -->
+  <div class="row">
+  {% for post in site.posts %}
+  {% if forloop.first == true %}
+    <div class="col-lg-12">
+      <div class="card mb-4">
+        <img class="card-img-top" src="{{ site.baseurl }}{{ post.image }}" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title">{{ post.title }}</h2>
+          <p class="card-text">{{ post.excerpt | strip_html | truncate: 500 }}</p>
+          <a href="{{ post.url }}" class="btn btn-primary">Lire l'article →</a>
+        </div>
+        <div class="card-footer text-muted" style="color:#FFF;">
+          <span>Posté le </span>
+          <span>{%- assign date_format = "%-d %B %Y" -%}
+          {{ post.date | date: date_format }}</span>
+        </div>
+      </div>
+    </div>
+  {% else %}
+
+  <!-- Autre article -->
+
+	<div class="col-lg-6">
+		<div class="card mb-4">
+			<img class="card-img-top" src="{{ site.baseurl }}{{ post.image }}" alt="Card image cap">
+			<div class="card-body">
+				<h2 class="card-title">{{ post.title }}</h2>
+				 <p class="card-text">{{ post.excerpt | strip_html | truncate: 500 }}</p>
+				 <a href="{{ post.url }}" class="btn btn-primary">Lire l'article →</a>
+			</div>
+			<div class="card-footer text-muted" style="color:#FFF;">
+        Posté le 
+        {%- assign date_format = "%-d %B %Y" -%}
+        {{ post.date | date: date_format }}
+			</div>
+		</div>	
+	</div>
+	
+  {% endif %}
+  
+  {% endfor %}
+  </div>
+</div>
+
