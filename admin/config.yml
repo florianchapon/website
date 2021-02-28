@@ -71,11 +71,29 @@ collections:
           - {label: "intro", name: "intro", widget: "markdown"} #Introduction site
           - label : "Services" # Services
             name: "services"
-            widget: "list"
+            widget: "object"
             fields: 
-              - {label: "Titre", name: "titre", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Description", name: "description", widget: "markdown"}
+              - label: "Service1"
+                name: "service1"
+                widget: "object"
+                fields:
+                - {label: "Titre", name: "titre", widget: "string"}
+                - {label: "Image", name: "image", widget: "image"}
+                - {label: "Description", name: "description", widget: "markdown"}
+              - label: "Service2"
+                name: "service2"
+                widget: "object"
+                fields:
+                - {label: "Titre", name: "titre", widget: "string"}
+                - {label: "Image", name: "image", widget: "image"}
+                - {label: "Description", name: "description", widget: "markdown"}
+              - label: "Service3"
+                name: "service3"
+                widget: "object"
+                fields:
+                - {label: "Titre", name: "titre", widget: "string"}
+                - {label: "Image", name: "image", widget: "image"}
+                - {label: "Description", name: "description", widget: "markdown"}  
           - label : "Portfolio" # Portfolio
             name: "portfolio"
             widget: "list"

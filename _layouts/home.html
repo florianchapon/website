@@ -46,7 +46,7 @@ layout: default
 	<div style="float:left;width:100%; background: #F8F8F8;">
 		<div class="full-width wow fadeInUp" data-wow-offset="50">
 			<div style="line-height: 1.714285714;text-align: justify;">
-			<? echo $json->container1->area1->content; /* Presentation */ ?></div>
+				{{page.intro}}</div>
 			<div style="clear: both"></div>
 		</div>
 	
@@ -59,16 +59,19 @@ layout: default
 		
 	<div class="full-width wow fadeInUp" data-wow-delay="0.5s">
 			<div class="third-width">
-			<? echo $json->container2->area1->title; /* title */ ?>
-			<? echo $json->container2->area1->content; /* contenu */ ?>
+				{{page.services.service1.titre}}
+				<img class=\"services\" src=\"{{site.baseurl}}{{page.services.service1.image}}">
+				<p>{{page.services.service1.description}}</p>
 			</div>
 			<div class="third-width">
-			<? echo $json->container2->area2->title; /* title */ ?>
-			<? echo $json->container2->area2->content; /* contenu */ ?>
+				{{page.services.service2.titre}}
+				<img class=\"services\" src=\"{{site.baseurl}}{{page.services.service2.image}}">
+				<p>{{page.services.service2.description}}</p>
 			</div>		
 			<div class="third-width last">
-			<? echo $json->container2->area3->title; /* title */ ?>
-			<? echo $json->container2->area3->content; /* contenu */ ?>
+				{{page.services.service3.titre}}
+				<img class=\"services\" src=\"{{site.baseurl}}{{page.services.service3.image}}">
+				<p>{{page.services.service3.description}}</p>
 			</div>
 		
 		<div style="clear: both;" />
@@ -80,7 +83,7 @@ layout: default
 	<!-- Fin Conteneur central1 -->
 	
 	<!-- separator -->
-	<div style="float:left; width:100%; background-image: url(theme/images/content3-banner.jpg); background-repeat: no-repeat;
+	<div style="float:left; width:100%; background-image: url('background-image: url('{{ '/assets/about-banner.jpg' | relative_url }}');'); background-repeat: no-repeat;
 	 background-size: cover; background-attachment: fixed;">
 		<div style="max-width:950px;margin:50px auto 50px auto;float:none;color:#FFFFFF;text-align:center;">
 			<div style="margin-bottom:20px;">
