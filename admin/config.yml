@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: florianchapon/website
-  branch: master
+  branch: gh-pages
 
 publish_mode: editorial_workflow
 
