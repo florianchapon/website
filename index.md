@@ -43,7 +43,7 @@ services:
       site Internet.
 aboutme:
   titre: ABOUT ME
-  liencv: a
+  liencv: /uploads/cv.pdf
   image: /uploads/florian-chapon.jpg
   description: |-
     Bonjour je m'appelle Florian CHAPON.
