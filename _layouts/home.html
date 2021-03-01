@@ -140,10 +140,7 @@ layout: default
 	<!-- Gallery -->
 	<div style="float:left; width:100%; background: #FFFFFF;">
 		<div id="portfolio" style="max-width:950px;margin:40px auto 40px auto;float:none;">
-		<? echo $json->container3->title; /* title */ ?>
-		
-			<?php include "pages/gallery.php"; ?>
-			
+			{%- include gallery.html -%}
 		</div>
 	</div>
 	<!-- Fin gallery -->

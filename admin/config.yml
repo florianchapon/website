@@ -98,7 +98,7 @@ collections:
             name: "portfolio"
             widget: "list"
             fields: 
-              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Categorie", name: "categorie", widget: "select", options: ["logos", "banners", "project", "themes"] }
               - {label: "Image", name: "image", widget: "image"} 
           - label: "About me" # About me
             name: "aboutme"
