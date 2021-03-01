@@ -50,7 +50,7 @@ layout: default
 			<div style="clear: both"></div>
 		</div>
 	
-	<div class="full-width" style="background-image: url('theme/images/mokups/mokup2.png');
+	<div class="full-width" style="background-image: url('{{site.baseurl}}/uploads/mokup.png');
 		background-size: contain;
 		background-repeat: no-repeat;
 		height:0;
@@ -59,18 +59,18 @@ layout: default
 		
 	<div class="full-width wow fadeInUp" data-wow-delay="0.5s">
 			<div class="third-width">
-				{{page.services.service1.titre}}
-				<img class=\"services\" src=\"{{site.baseurl}}{{page.services.service1.image}}">
+				<h2>{{page.services.service1.titre}}</h2>
+				<img class="services" src="{{site.baseurl}}{{page.services.service1.image}}">
 				<p>{{page.services.service1.description}}</p>
 			</div>
 			<div class="third-width">
-				{{page.services.service2.titre}}
-				<img class=\"services\" src=\"{{site.baseurl}}{{page.services.service2.image}}">
+				<h2>{{page.services.service2.titre}}</h2>
+				<img class="services" src="{{site.baseurl}}{{page.services.service2.image}}">
 				<p>{{page.services.service2.description}}</p>
 			</div>		
 			<div class="third-width last">
-				{{page.services.service3.titre}}
-				<img class=\"services\" src=\"{{site.baseurl}}{{page.services.service3.image}}">
+				<h2>{{page.services.service3.titre}}</h2>
+				<img class="services" src="{{site.baseurl}}{{page.services.service3.image}}">
 				<p>{{page.services.service3.description}}</p>
 			</div>
 		
