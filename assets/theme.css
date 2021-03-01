@@ -47,6 +47,10 @@ h1 {
     margin-bottom: 0.8em;
 }
 
+strong {
+    font-weight: bold;
+    color: #006488;
+}
 a {
     color: #3a6cb7;
     text-decoration: none !important;

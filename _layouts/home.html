@@ -45,7 +45,7 @@ layout: default
 	<!-- Conteneur central1 -->
 	<div style="float:left;width:100%; background: #F8F8F8;">
 		<div class="full-width wow fadeInUp" data-wow-offset="50">
-			<div style="line-height: 1.714285714;text-align: justify;">
+			<div style="line-height: 1.714285714;text-align: justify; text-align:center;">
 				{{page.intro | markdownify}}</div>
 			<div style="clear: both"></div>
 		</div>
@@ -83,8 +83,8 @@ layout: default
 	<!-- Fin Conteneur central1 -->
 	
 	<!-- separator -->
-	<div style="float:left; width:100%; background-image: url('background-image: url('{{ '/assets/about-banner.jpg' | relative_url }}');'); background-repeat: no-repeat;
-	 background-size: cover; background-attachment: fixed;">
+	<div style="float:left; width:100%; background-image: url('{{ '/assets/about-banner.jpg' | relative_url }}'); background-repeat: no-repeat; 
+	background-size: cover; background-attachment: fixed;">
 		<div style="max-width:950px;margin:50px auto 50px auto;float:none;color:#FFFFFF;text-align:center;">
 			<div style="margin-bottom:20px;">
 				<span style="font-size:20px;">Vous avez besoin d'un </span>
@@ -150,23 +150,23 @@ layout: default
 	
 	
 	<!-- Content 2 -->
-	<div style="float:left; width:100%; background-image: url(theme/images/content2-banner.jpg); background-repeat: no-repeat;
+	<div style="float:left; width:100%; background-image: url('{{ '/assets/about-banner.jpg' | relative_url }}'); background-repeat: no-repeat;
 	 background-size: cover; background-attachment: fixed;">
 		<div id="about" class="full-width">
-		<? echo $json->container4->title; /* title */ ?>
+			<h1 style="color:#FFFFFF">{{page.aboutme.titre}}<br/>•</h1>
 			
 			<div style="float:left;width:100%;color:#FFFFFF;text-align:justify;">
 				<div class="third-width wow bounceInUp" data-wow-delay="0s">
-				
-				<? echo $json->container4->area1->content; /* contenu */ ?>
+					{{page.aboutme.description | markdownify}}
 				</div>
 				
 				<div class="third-width wow bounceInUp" data-wow-delay="0.12s">
-				<? echo $json->container4->area2->content; /* contenu */ ?>
+					<img src="{{site.baseurl}}{{page.aboutme.image}}" style="border-radius: 500px; width:100%;">
 				</div> 
 				
 				<div class="third-width wow bounceInUp" data-wow-delay="0.25s">
-				<? echo $json->container4->area3->content; /* contenu */ ?>
+					{{page.aboutme.titrecv}}<br/><br/>
+					<div class="cv"><a href="{{site.baseurl}}{{page.aboutme.liencv}}" target="_blank">Download</a></div>
 				</div>
 			</div>
 			<div style="clear:both;"/>

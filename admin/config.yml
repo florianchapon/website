@@ -105,8 +105,10 @@ collections:
             widget: "object"
             fields: 
               - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown"}
               - {label: "Image", name: "image", widget: "image"}
-              - {label: "Lien CV", name: "liencv", widget: "string"}
+              - {label: "Titre CV", name: "titrecv", widget: "string"}
+              - {label: "Lien CV", name: "liencv", widget: "image"}
               
 
   - name: "projets"
