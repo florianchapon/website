@@ -41,6 +41,17 @@ services:
       expérience et mes compétences à votre service pour des formations et des
       conseils quant à l’utilisation autonome et la personnalisation de votre
       site Internet.
+portfolio:
+  - categorie: logos
+    image: /uploads/clanstorm.jpg
+  - categorie: logos
+    image: /uploads/nero_logo.jpg
+  - categorie: logos
+    image: /uploads/oa.jpg
+  - categorie: banners
+    image: /uploads/kasper_banner.jpg
+  - categorie: project
+    image: /uploads/tapis_dst_2014.jpg
 aboutme:
   titre: ABOUT ME
   liencv: /uploads/cv.pdf
