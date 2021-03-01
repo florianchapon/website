@@ -108,7 +108,7 @@ collections:
               - {label: "Description", name: "description", widget: "markdown"}
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Titre CV", name: "titrecv", widget: "string"}
-              - {label: "Lien CV", name: "liencv", widget: "image"}
+              - {label: "Lien CV", name: "liencv", widget: "file"}
               
 
   - name: "projets"
