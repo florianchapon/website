@@ -132,6 +132,11 @@
 
 .image {
 	width: calc(50% - 5px);
+	margin:2px;
+}
+
+.third-width img {
+	max-width:50%;
 }
 
 
