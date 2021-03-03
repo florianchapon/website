@@ -183,7 +183,8 @@ layout: default
 					<input type="text" required placeholder="NOM" name="entry.393927792" id="name" class="contact-input">
 					<input type="text" required placeholder="E-MAIL" name="entry.1610294210" id="email" class="contact-input">
 					<textarea required placeholder="MESSAGE" name="entry.566675216" id="message" class="contact-textarea"></textarea>
-					<input type="submit" class="button" style="width:calc(100% - 4px);float:left;margin:0 0 1% 0;"></input>
+					<div class="g-recaptcha" data-sitekey="6LdSYgsUAAAAAFvRIi8Ww--5l-1hssRcYfe3eXSz "></div>
+					<input type="submit" onclick="checkRecaptcha();" class="button" style="width:calc(100% - 4px);float:left;margin:0 0 1% 0;"></input>
 					<div style="clear: both" />
 			</div>
 		</div>
@@ -191,6 +192,31 @@ layout: default
 
 	<!-- FIN Contact GOOGLE -->
 
+	<script> 
+		function checkRecaptcha() {
+		  var response = grecaptcha.getResponse();
+		  if(response.length == 0) { 
+			//reCaptcha not verified
+			alert("no pass"); 
+		  }
+		  else { 
+			//reCaptch verified
+			alert("pass"); 
+		  }
+		}
+		
+		// implement on the backend
+		function backend_API_challenge() {
+			var response = grecaptcha.getResponse();
+			$.ajax({
+				type: "POST",
+				url: 'https://www.google.com/recaptcha/api/siteverify',
+				data: {"secret" : "6LdSYgsUAAAAALNpHaWsuozXuIh8mAGSvdEFaxre", "response" : response, "remoteip":"localhost"},
+				contentType: 'application/x-www-form-urlencoded',
+				success: function(data) { console.log(data); }
+			});
+		}
+		</script>	
 	
 	
 	
