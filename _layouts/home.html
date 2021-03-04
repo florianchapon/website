@@ -195,6 +195,10 @@ layout: default
 
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted){}"></iframe>
 	<script>
+		var submitted=false;
+	</script>
+	
+	<script>
 		$('#gform').on('submit', function(e){
 			$('#gform *').fadeOut(1000);
 			$("#confirm").delay(500).fadeIn(500);
