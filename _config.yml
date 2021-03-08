@@ -25,6 +25,6 @@ exclude:
   - node_modules
   - update_boostrap.sh
 email: chapon.florian@gmail.com
-description: Portfolio de Florian Chapon, Webdesigner Graphiste, de formation Chimiste, à Lyon. Création de sites web, Graphismes & Illustrations.
-
+description: Portfolio de Florian Chapon, Webdesigner Graphiste, de formation Chimiste, à Grenoble. Création de sites web, Graphismes & Illustrations.
+google_analytics: "UA-178410963-1" 
   
