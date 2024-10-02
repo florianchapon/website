@@ -1,8 +1,13 @@
 ---
 heroheader:
-  titre: FLORIAN CHAPON
-  soustitre: Graphisme • Webdesign • Webdevelopment
+  titre: "# I'm [Florian CHAPON.](#) A product manager passionate about science
+    and technology !"
+  soustitre: Thank you for stopping by ! Specialized in electrochmemistry and
+    marketing, i'm a curious humain being who continuously loves learning and
+    doing things by myself. Learn more about [me](#) or about [my side
+    projects](#).
   banniere: /uploads/background.jpg
+  hero-image: /uploads/hero-picture-nobg.png
 intro: >-
   Bienvenue sur mon portfolio.\
 
@@ -41,6 +46,21 @@ services:
       expérience et mes compétences à votre service pour des formations et des
       conseils quant à l’utilisation autonome et la personnalisation de votre
       site Internet.
+background:
+  background-jobs:
+    - title: Product manager
+      company: BioLogic
+      link: https://biologic.net
+      place: Seyssinet-Pariset, FRANCE
+      end-date: Now
+      start-date: Oct. 2021
+      description: >-
+        Management of the potentiostats/galvanostats and impedance analyzers
+        product ranges.Management of the add-on instrument and accessories
+        product range.
+
+        Strategic and operational marketing, product lifecycle management, customer support (technical and applicative one)...
+  liencv: /uploads/florian-chapon-cv.pdf
 portfolio:
   - categorie: logos
     image: /uploads/clanstorm.jpg
