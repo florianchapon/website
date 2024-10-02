@@ -8,6 +8,14 @@ heroheader:
     projects](#).
   banniere: /uploads/background.jpg
   hero-image: /uploads/hero-picture-nobg.png
+  image: /uploads/hero-picture-nobg.png
+  title: "# I'm [Florian CHAPON.](https://florianchapon.github.io/web-test/) A
+    product manager passionate about science and technology !"
+  subtitle: Thank you for stopping by ! Specialized in electrochmemistry and
+    marketing, i'm a curious humain being who continuously loves learning and
+    doing things by myself. Learn more
+    about [me](https://florianchapon.github.io/web-test/) or about [my side
+    projects](https://florianchapon.github.io/web-test/).
 intro: >-
   Bienvenue sur mon portfolio.\
 
