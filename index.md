@@ -1,7 +1,6 @@
 ---
 heroheader:
-  titre: "# I'm [Florian CHAPON.](#) A product manager passionate about science
-    and technology !"
+  titre: Ceci est un test
   soustitre: Thank you for stopping by ! Specialized in electrochmemistry and
     marketing, i'm a curious humain being who continuously loves learning and
     doing things by myself. Learn more about [me](#) or about [my side
