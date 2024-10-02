@@ -71,7 +71,9 @@ background:
         product range.
 
         Strategic and operational marketing, product lifecycle management, customer support (technical and applicative one)...
+      image: https://media.istockphoto.com/id/1435491075/photo/business-logistics-technology-concept.jpg?s=612x612&w=0&k=20&c=OyPiRP_B8k7XbQMqQg-d-FkpZrU7Lj5ayPKaEETXqsM=
   liencv: /uploads/florian-chapon-cv.pdf
+  cvlink: /uploads/cv.pdf
 portfolio:
   - categorie: logos
     image: /uploads/clanstorm.jpg
