@@ -1,10 +1,7 @@
 ---
 heroheader:
-  titre: Ceci est un test fgegezge
-  soustitre: Thank you for stopping by ! Specialized in electrochmemistry and
-    marketing, i'm a curious humain being who continuously loves learning and
-    doing things by myself. Learn more about [me](#) or about [my side
-    projects](#).
+  titre: FLORIAN CHAPON
+  soustitre: Graphisme • Webdesign • Webdevelopment
   banniere: /uploads/background.jpg
   hero-image: /uploads/hero-picture-nobg.png
   image: /uploads/hero-picture-nobg.png
