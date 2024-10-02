@@ -1,3 +1,4 @@
+google_analytics: UA-178410963-1
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -16,8 +17,8 @@ collections:
     output: true
     permalink: /blog/:path/
   projets:
-    output: true 
-    permalink: /:path/  
+    output: true
+    permalink: /:path/
 title: Florian Chapon • Graphiste, Webdesigner, Chimiste • Grenoble
 exclude:
   - Gemfile
@@ -25,6 +26,8 @@ exclude:
   - node_modules
   - update_boostrap.sh
 email: chapon.florian@gmail.com
-description: Portfolio de Florian Chapon, Webdesigner Graphiste, de formation Chimiste, à Grenoble. Création de sites web, Graphismes & Illustrations.
-google_analytics: "UA-178410963-1" 
-  
+description: Portfolio de Florian Chapon, Webdesigner Graphiste, de formation
+  Chimiste, à Grenoble. Création de sites web, Graphismes & Illustrations.
+footer:
+  title: test footer info
+  description: test description
