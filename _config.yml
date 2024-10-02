@@ -19,7 +19,7 @@ collections:
   projets:
     output: true
     permalink: /:path/
-title: Florian Chapon • Graphiste, Webdesigner, Chimiste • Grenoble
+title: Florian Chapon • Graphiste, Webdesigner, Chimiste • Grenoble - test
 exclude:
   - Gemfile
   - Gemfile.lock
