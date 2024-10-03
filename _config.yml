@@ -19,15 +19,16 @@ collections:
   projets:
     output: true
     permalink: /:path/
-title: Florian Chapon • Graphiste, Webdesigner, Chimiste • Grenoble - test 2
+title: Florian Chapon • Product manager • Grenoble
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
 email: chapon.florian@gmail.com
-description: Portfolio de Florian Chapon, Webdesigner Graphiste, de formation
-  Chimiste, à Grenoble. Création de sites web, Graphismes & Illustrations.
+description: Explore the portfolio of Florian Chapon, a product manager in
+  electrochemistry based in Grenoble. Discover my work, including side projects
+  in graphic design, video editing, coding, and more! tessst
 footer:
   title: test footer info
   description: test description
