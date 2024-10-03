@@ -1,7 +1,7 @@
 ---
 heroheader:
   titre: FLORIAN CHAPON
-  soustitre: Graphisme • Webdesign • Webdevelopment
+  soustitre: Graphisme • Webdesign • Webdevelopment2
   banniere: /uploads/background.jpg
   hero-image: /uploads/hero-picture-nobg.png
   image: /uploads/hero-picture-nobg.png
