@@ -412,9 +412,22 @@ footer div {
 
 @media screen and (max-width: 1000px) {
 
+    h1 {
+        font-size: 45px;
+    }
+
+    .navbar-items {
+        padding: 0px 20px;
+    }
+
     .hero-section {
         grid-template-columns: 1fr !important;
         grid-template-rows: 100vh auto;
+        padding: 0 20px;
+    }
+
+    .wrapper {
+        padding: 75px 20px;
     }
 
     .grid50 {
@@ -431,10 +444,5 @@ footer div {
     .degree {
         grid-template-columns: 1fr;
     }
-
-    h1 {
-      /*  font-size: 45px !important;*/
-    }
-
 
 }
