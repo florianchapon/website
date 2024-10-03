@@ -32,6 +32,28 @@ collections:
                   - {label: "Nom du lien", name: "name", widget: "string"}
                   - {label: "Lien réseaux social", name: "link", widget: "string"}
 
+  - name: "Articles"
+    label: "Articles"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Auteur", name: "author", widget: "string"}
+      - {label: "Image d'en tête", name: "image", widget: "image"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+
+  - name: "Page"
+    label: "Pages"
+    folder: "_pages"
+    layout: page
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each pages
+      - {label: "Titre", name: "titre", widget: "string"}
+      - {label: "Image bannière", name: "banniere", widget: "image"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+  
   - name: "homepage"
     label: "Home page"
     files:
@@ -71,28 +93,7 @@ collections:
                   - {label: "Lieu", name: "place", widget: "markdown"}   
               - {label: "Lien CV", name: "cvlink", widget: "file" }
 
-  - name: "Articles"
-    label: "Articles"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields for each document, usually in front matter
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Auteur", name: "author", widget: "string"}
-      - {label: "Image d'en tête", name: "image", widget: "image"}
-      - {label: "Texte", name: "body", widget: "markdown"}
-
-  - name: "Page"
-    label: "Pages"
-    folder: "_pages"
-    layout: page
-    create: true
-    slug: "{{slug}}"
-    fields: # The fields for each pages
-      - {label: "Titre", name: "titre", widget: "string"}
-      - {label: "Image bannière", name: "banniere", widget: "image"}
-      - {label: "Texte", name: "body", widget: "markdown"}
-               
+              
 
   - name: "projets"
     label: "Projets"

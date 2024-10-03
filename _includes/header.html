@@ -1,78 +1,26 @@
-<!-- Scrolling effects --><script>
-	$(document).ready(
-	  function() { 
-		$("html").niceScroll({
-			cursorcolor:"rgb(30, 33, 35)",
-			 cursorwidth: "10px",
-			 cursorborder: "1px solid #000000",
-			 background: "rgb(110, 110, 114)",
-			 zindex:"11"
-			});
-	  });
-	</script>
-	
-	
-	<script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		  var target = $(this.hash);
-		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		  if (target.length) {
-			$('html,body').animate({
-			  scrollTop: target.offset().top
-			}, 1000);
-			return false;
-		  }
-		}
-	  });
-	});
-	
-	
-	</script>	
-	
+
+
+<header>
+
+	<div class="navbar">   
+        <div class="navbar-items">   
+            <div id="logo">
+                <svg style="width:30px; fill:#fff;" enable-background="new 0 0 323.6 330.5" version="1.1" viewBox="0 0 323.6 330.5" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="292.1 70 323.6 0 161.8 65 0 0 31.6 70 92.7 92.1 109.7 133.6 57.2 116.9 81.2 171.6 105.5 185.1 161.8 330.5 218.1 185.1 242.5 171.6 266.5 116.9 214 133.6 231 92.1"/>
+                </svg>
+                <a style="margin-left:10px; color:#FFF;">Florian CHAPON</a>
+            </div>
+            <nav>
+                <a href="#background">Background</a>
+                <!--
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                -->
+                <a href="#contact" class="Btn-contact">Contact me !</a>
+            </nav>
+        </div>
+    </div>	
 
 	
-	<div id="home"></div>
-	<header>
 	
-		
-	
-		<!-- computer -->
-		<div class="computer-nav">
-		<nav>
-			<ul>
-				<li><a href="#home">Home</a></li>	
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href=""><img src="{{ "/assets/logo.png" | relative_url }}" style="width:auto;height:80px;"/></a></li>
-				<li><a href="#about">About me</a></li>
-				<li><a href="#contact">Contact</a></li>		
-					
-			</ul>
-		</nav>
-		</div>
-		<!-- mobile -->
-		<div class="mobile-nav">
-		<nav>
-			<ul>
-				<li style="left; width:70%; ">Bienvenue</li>
-				<li id="nav-button" class="nav-button" style="float:right;width:30%;">&#9776;</li>	
-			</ul>
-		</nav>
-		</div>
-		
-		<div id="mobile-nav-open" class="mobile-nav-1">
-		<nav>
-			<ul>
-				<li><  MENU  ></li>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#about">About me</a></li>
-				<li><a href="#contact">Contact</a></li>		
-			</ul>
-		</nav>
-		</div>
-		
-		
-		
-	</header>
+</header>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-04T00:28:58+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Florian Chapon • Product manager • Grenoble</title><subtitle>Explore the portfolio of Florian Chapon, a product manager in electrochemistry based in Grenoble. Discover my work, including side projects in graphic design, video editing, coding, and more!</subtitle><entry><title type="html">Troisième blog</title><link href="http://localhost:4000/blog/2020-09-10-troisi%C3%A8me-blog/" rel="alternate" type="text/html" title="Troisième blog" /><published>2020-09-10T00:00:00+02:00</published><updated>2020-09-10T00:00:00+02:00</updated><id>http://localhost:4000/blog/troisi%C3%A8me-blog</id><content type="html" xml:base="http://localhost:4000/blog/2020-09-10-troisi%C3%A8me-blog/"><![CDATA[<h1 id="welcome-to-the-editor">Welcome to the editor!</h1>
+
+<p>Hi! I’m your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the <strong>file explorer</strong> on the left corner of the navigation bar.</p>
+
+<h1 id="synchronization">Synchronization</h1>
+
+<p>Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your <strong>Google Drive</strong>, your <strong>Dropbox</strong> and your <strong>GitHub</strong> accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow… The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.</p>
+
+<p>There are two types of synchronization and they can complement each other:</p>
+
+<ul>
+  <li>
+    <p>The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.</p>
+
+    <blockquote>
+      <p>To start syncing your workspace, just sign in with Google in the menu.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>The file synchronization will keep one file of the workspace synced with one or multiple files in <strong>Google Drive</strong>,</p>
+  </li>
+</ul>
+
+<h2 id="smartypants">SmartyPants</h2>
+
+<p>SmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:
+| test |test |
+|–|–|
+| test | test |
+|test|test|</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>ASCII</th>
+      <th>HTML</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Single backticks</td>
+      <td><code class="language-plaintext highlighter-rouge">'Isn't this fun?'</code></td>
+      <td>‘Isn’t this fun?’</td>
+    </tr>
+    <tr>
+      <td>Quotes</td>
+      <td><code class="language-plaintext highlighter-rouge">"Isn't this fun?"</code></td>
+      <td>“Isn’t this fun?”</td>
+    </tr>
+    <tr>
+      <td>Dashes</td>
+      <td><code class="language-plaintext highlighter-rouge">-- is en-dash, --- is em-dash</code></td>
+      <td>-- is en-dash, — is em-dash</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="uml-diagrams">UML diagrams</h2>
+
+<p>You can render UML diagrams using <a href="https://mermaidjs.github.io/">Mermaid</a>. For example, this will produce a sequence diagram:</p>
+
+<pre><code class="language-mermaid">
+</code></pre>
+
+<p>And this will produce a flow chart:</p>
+
+<pre><code class="language-mermaid">
+</code></pre>]]></content><author><name>FleauxTV</name></author><summary type="html"><![CDATA[Welcome to the editor!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/banner-1.png" /><media:content medium="image" url="http://localhost:4000/uploads/banner-1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Deuxième blog</title><link href="http://localhost:4000/blog/2020-09-10-deuxi%C3%A8me-blog/" rel="alternate" type="text/html" title="Deuxième blog" /><published>2020-09-10T00:00:00+02:00</published><updated>2020-09-10T00:00:00+02:00</updated><id>http://localhost:4000/blog/deuxi%C3%A8me-blog</id><content type="html" xml:base="http://localhost:4000/blog/2020-09-10-deuxi%C3%A8me-blog/"><![CDATA[<h1 id="welcome-to-the-editor">Welcome to the editor!</h1>
+
+<p>Hi! I’m your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the <strong>file explorer</strong> on the left corner of the navigation bar.</p>
+
+<h1 id="synchronization">Synchronization</h1>
+
+<p>Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your <strong>Google Drive</strong>, your <strong>Dropbox</strong> and your <strong>GitHub</strong> accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow… The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.</p>
+
+<p>There are two types of synchronization and they can complement each other:</p>
+
+<ul>
+  <li>
+    <p>The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.</p>
+
+    <blockquote>
+      <p>To start syncing your workspace, just sign in with Google in the menu.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>The file synchronization will keep one file of the workspace synced with one or multiple files in <strong>Google Drive</strong>,</p>
+  </li>
+</ul>
+
+<h2 id="smartypants">SmartyPants</h2>
+
+<p>SmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:
+| test |test |
+|–|–|
+| test | test |
+|test|test|</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>ASCII</th>
+      <th>HTML</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Single backticks</td>
+      <td><code class="language-plaintext highlighter-rouge">'Isn't this fun?'</code></td>
+      <td>‘Isn’t this fun?’</td>
+    </tr>
+    <tr>
+      <td>Quotes</td>
+      <td><code class="language-plaintext highlighter-rouge">"Isn't this fun?"</code></td>
+      <td>“Isn’t this fun?”</td>
+    </tr>
+    <tr>
+      <td>Dashes</td>
+      <td><code class="language-plaintext highlighter-rouge">-- is en-dash, --- is em-dash</code></td>
+      <td>-- is en-dash, — is em-dash</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="uml-diagrams">UML diagrams</h2>
+
+<p>You can render UML diagrams using <a href="https://mermaidjs.github.io/">Mermaid</a>. For example, this will produce a sequence diagram:</p>
+
+<pre><code class="language-mermaid">
+</code></pre>
+
+<p>And this will produce a flow chart:</p>
+
+<pre><code class="language-mermaid">
+</code></pre>]]></content><author><name>FleauxTV</name></author><summary type="html"><![CDATA[Welcome to the editor!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/banner.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/banner.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Premier blog</title><link href="http://localhost:4000/blog/2020-09-10-premier-blog/" rel="alternate" type="text/html" title="Premier blog" /><published>2020-09-10T00:00:00+02:00</published><updated>2020-09-10T00:00:00+02:00</updated><id>http://localhost:4000/blog/premier-blog</id><content type="html" xml:base="http://localhost:4000/blog/2020-09-10-premier-blog/"><![CDATA[<h1 id="welcome-to-the-editor">Welcome to the editor!</h1>
+
+<p>Hi! I’m your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the <strong>file explorer</strong> on the left corner of the navigation bar.</p>
+
+<h1 id="synchronization">Synchronization</h1>
+
+<p>Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your <strong>Google Drive</strong>, your <strong>Dropbox</strong> and your <strong>GitHub</strong> accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow… The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.</p>
+
+<p>There are two types of synchronization and they can complement each other:</p>
+
+<ul>
+  <li>
+    <p>The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.</p>
+
+    <blockquote>
+      <p>To start syncing your workspace, just sign in with Google in the menu.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>The file synchronization will keep one file of the workspace synced with one or multiple files in <strong>Google Drive</strong>,</p>
+  </li>
+</ul>
+
+<h2 id="smartypants">SmartyPants</h2>
+
+<p>SmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:
+| test |test |
+|–|–|
+| test | test |
+|test|test|</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>ASCII</th>
+      <th>HTML</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Single backticks</td>
+      <td><code class="language-plaintext highlighter-rouge">'Isn't this fun?'</code></td>
+      <td>‘Isn’t this fun?’</td>
+    </tr>
+    <tr>
+      <td>Quotes</td>
+      <td><code class="language-plaintext highlighter-rouge">"Isn't this fun?"</code></td>
+      <td>“Isn’t this fun?”</td>
+    </tr>
+    <tr>
+      <td>Dashes</td>
+      <td><code class="language-plaintext highlighter-rouge">-- is en-dash, --- is em-dash</code></td>
+      <td>-- is en-dash, — is em-dash</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="uml-diagrams">UML diagrams</h2>
+
+<p>You can render UML diagrams using <a href="https://mermaidjs.github.io/">Mermaid</a>. For example, this will produce a sequence diagram:</p>
+
+<pre><code class="language-mermaid">
+</code></pre>
+
+<p>And this will produce a flow chart:</p>
+
+<pre><code class="language-mermaid">
+</code></pre>]]></content><author><name>FleauxTV</name></author><summary type="html"><![CDATA[Welcome to the editor!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/banner-1.png" /><media:content medium="image" url="http://localhost:4000/uploads/banner-1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

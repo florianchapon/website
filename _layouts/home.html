@@ -3,195 +3,130 @@ layout: default
 ---
 
 	
-	
-		<div class="entry-page-image fixed" style="background-image:url('{{ site.baseurl }}{{ page.heroheader.banniere }}')";>	
-			<div class="title-box">
-			<h1 class="site-title">{{page.heroheader.titre}}</h1>
-			<h2 class="site-description">{{page.heroheader.soustitre}}</h2>
-			</div>
-		</div><!-- .entry-page-image -->	
-	
-	<!-- menu -->
-	<a href="#introduction"><div style="
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.01+0,0.8+100 */
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.8) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03000000', endColorstr='#cc000000',GradientType=0 ); /* IE6-9 */
-	position: absolute;
-		bottom: 0;
-		height: 130px;
-		width: 100%;
-	
-	">
-	<div style="bottom: 40px; width: 100%; text-align:center; font-size:17px; font-weight:400;height: 50px; position: absolute;left: 0; right: 0; margin: auto; color:#FFFFFF;   text-shadow: #000000 0.1em 0.1em 0.2em;">Cliquez ou scrollez</div>
-	<div style="bottom: 20px; width: 100%; text-align:center; font-size:17px; font-weight:400;height: 50px; position: absolute;left: 0; right: 0; margin: auto; color:#FFFFFF;  text-shadow:  #000000 0.1em 0.1em 0.2em;
-		-webkit-animation: scrolldown 1.5s;  /* Chrome, Safari, Opera */
-		-webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
-		animation: scrolldown 1.5s;
-		animation-iteration-count: infinite;
-		
-		">&#8595;</div></div></a>
-	
-	
-			
-			
-					
-	
-	<!-- page -->
-	<div id ="page" style="float:left;width:100%;background-color:#ffffff;">
-	<div id="introduction"></div>
-		
-	<!-- Conteneur central1 -->
-	<div style="float:left;width:100%; background: #F8F8F8;">
-		<div class="full-width wow fadeInUp" data-wow-offset="50">
-			<div style="line-height: 1.714285714;text-align: justify; text-align:center;">
-				{{page.intro | markdownify}}</div>
-			<div style="clear: both"></div>
-		</div>
-	
-	<div class="full-width" style="background-image: url('{{site.baseurl}}/uploads/mokup.png');
-		background-size: contain;
-		background-repeat: no-repeat;
-		height:0;
-		  padding-top: 20.51%;background-position:center;">
-	</div>
-		
-	<div class="full-width wow fadeInUp" data-wow-delay="0.5s">
-			<div class="third-width">
-				<h2>{{page.services.service1.titre}}</h2>
-				<img class="services" src="{{site.baseurl}}{{page.services.service1.image}}">
-				<p>{{page.services.service1.description}}</p>
-			</div>
-			<div class="third-width">
-				<h2>{{page.services.service2.titre}}</h2>
-				<img class="services" src="{{site.baseurl}}{{page.services.service2.image}}">
-				<p>{{page.services.service2.description}}</p>
-			</div>		
-			<div class="third-width last">
-				<h2>{{page.services.service3.titre}}</h2>
-				<img class="services" src="{{site.baseurl}}{{page.services.service3.image}}">
-				<p>{{page.services.service3.description}}</p>
-			</div>
-		
-		<div style="clear: both;" />
-	</div>
-	</div>
-	
-	
-	</div>
-	<!-- Fin Conteneur central1 -->
-	
-	<!-- separator -->
-	<div style="float:left; width:100%; background-image: url('{{ '/assets/about-banner.jpg' | relative_url }}'); background-repeat: no-repeat; 
-	background-size: cover; background-attachment: fixed;">
-		<div style="max-width:950px;margin:50px auto 50px auto;float:none;color:#FFFFFF;text-align:center;">
-			<div style="margin-bottom:20px;">
-				<span style="font-size:20px;">Vous avez besoin d'un </span>
-				<span id="slogan" class="slogan">
-				<b id="slogan0" class="is-visible"> webdevelopper?</b>
-				<b id ="slogan1" class="is-hidden"> designer?</b>
-				<b id = "slogan2" class="is-hidden"> chimiste?</b>
-				</span>
-			</div>	
-			<div>
-				<a href="#contact" id="contact-button" class="button">CONTACTEZ MOI</a>
-			</div>
-			<div style="clear: both;" />
-		</div>
-		</div>
-	
-	
-	<script>
-					
-						var i=0;
-						setInterval(function () {
-							i = i+1;
-								if (i==1) {
-								document.getElementById("slogan0").className = "is-visible";
-								document.getElementById("slogan1").className = "is-hidden";
-								document.getElementById("slogan2").className = "is-hidden";	
-								}
-								
-								else if (i==2) {
-								document.getElementById("slogan0").className = "is-hidden";
-								document.getElementById("slogan1").className = "is-visible";
-								document.getElementById("slogan2").className = "is-hidden";	
-								}
-								
-								else if (i==3) {
-								document.getElementById("slogan0").className = "is-hidden";
-								document.getElementById("slogan1").className = "is-hidden";
-								document.getElementById("slogan2").className = "is-visible";	
-								}
-								else {
-								i=0;	
-								}
-							}, 2000);	
-						
-	
-	</script>
-	
-	<!-- fin separator -->
-	
-	
-	
-	
-	<!-- Gallery -->
-	<div style="float:left; width:100%; background: #FFFFFF;">
-		<div id="portfolio" style="max-width:950px;margin:40px auto 40px auto;float:none;">
-			<H1 style="color:#8B8B8C;">MY WORK<br/>•</H1>
-			{%- include gallery.html -%}
-		</div>
-	</div>
-	<!-- Fin gallery -->
-	
-	
-	<!-- Content 2 -->
-	<div style="float:left; width:100%; background-image: url('{{ '/assets/about-banner.jpg' | relative_url }}'); background-repeat: no-repeat;
-	 background-size: cover; background-attachment: fixed;">
-		<div id="about" class="full-width">
-			<h1 style="color:#FFFFFF">{{page.aboutme.titre}}<br/>•</h1>
-			
-			<div style="float:left;width:100%;color:#FFFFFF;text-align:justify;">
-				<div class="third-width wow bounceInUp" data-wow-delay="0s">
-					{{page.aboutme.description | markdownify}}
-				</div>
-				
-				<div class="third-width wow bounceInUp" data-wow-delay="0.12s">
-					<img src="{{site.baseurl}}{{page.aboutme.image}}" style="border-radius: 500px; width:100%;">
-				</div> 
-				
-				<div class="third-width wow bounceInUp" data-wow-delay="0.25s">
-					{{page.aboutme.titrecv}}<br/><br/>
-					<div class="cv"><a href="{{site.baseurl}}{{page.aboutme.liencv}}" target="_blank">Download</a></div>
-				</div>
-			</div>
-			<div style="clear:both;"/>
-		
-		</div>
-	</div>
-	</div>
-	<!-- Fin Content 2 -->
-	
-	<!-- Contact GOOGLE -->
 
-	
-		<div id="contact" style="float:left; width:100%; background: #cfd3d9;">
-			<div id="form" class="full-width">	
-				<h1 style="text-align:center;color:#fff;"><i>CONTACT</i><br/>•</h1>
-				<form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdaV-KdbBI6kf4oGFQ5RROskmqajMYb-hRH-ctbKHCFqBIWkw/formResponse">
-					<input type="text" required placeholder="NOM" name="entry.393927792" id="name" class="contact-input">
-					<input type="text" required placeholder="E-MAIL" name="entry.1610294210" id="email" class="contact-input">
-					<textarea required placeholder="MESSAGE" name="entry.566675216" id="message" class="contact-textarea"></textarea>
-					<input type="text" required placeholder="CAPTCHA" name="entry.166478920" id="captcha">Recopier le code: f38ce69rx</input>
-					<input type="submit" id="submit" class="button" style="width:calc(100% - 4px);float:left;margin:0 0 1% 0;" disabled></input>
-				</form>
-					<div id="confirm" style="display:none; color:green; font-weight:bold; text-align:center">Message correctement envoyé !</div>
-					<div style="clear: both" />
+<!-- Hero header main page -->
+<div id="hero-header">
+	<div>
+
+	</div>
+	<div class="hero-section">
+			<div id="hero-title">
+				<!--<h1>-->{{page.heroheader.title | markdownify}}<!--</h1>--> 
+				<p>{{page.heroheader.subtitle | markdownify}}</p>
 			</div>
+			<div id="hero-picture" style="background-image:url({{pages.heroheader.image}});"></div>
+	</div>
+</div>
+
+<!-- Content -->
+<!-- Background section -->
+<div id="background"> 
+	<!-- Background -->    
+	<div class="wrapper">
+		<h2 class="caps">My background</h2>
+		<h3>Here’s a snapshot of my professional journey and the education that fuels my passion.</h3>
+		<div class="section-background">
+			<!-- Job section -->
+			<div class="jobs">
+				<div style="fill:#FFF;margin-bottom:20px;">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 512 512" version="1.1">
+						
+						<path d="M1.20792265e-13,197.76 C54.5835501,218.995667 112.186031,231.452204 170.666667,234.666667 L170.666667,277.333333 L256,277.333333 L256,234.666667 C314.339546,231.013 371.833936,218.86731 426.666667,198.613333 L426.666667,362.666667 L1.20792265e-13,362.666667 L1.20792265e-13,197.76 Z M277.333333,-1.42108547e-14 L298.666667,21.3333333 L298.666667,64 L426.666667,64 L426.666667,175.146667 C361.254942,199.569074 292.110481,212.488551 222.293333,213.333333 L222.293333,213.333333 L206.933333,213.333333 C136.179047,212.568604 66.119345,199.278929 7.10542736e-15,174.08 L7.10542736e-15,174.08 L7.10542736e-15,64 L128,64 L128,21.3333333 L149.333333,-1.42108547e-14 L277.333333,-1.42108547e-14 Z M256,42.6666667 L170.666667,42.6666667 L170.666667,64 L256,64 L256,42.6666667 Z" id="Combined-Shape-Copy">
+					
+					</path>
+					</svg>
+				</div>
+				<h3 style="font-size: 38px;"">Work experience</h3>
+			</div>
+			
+			<!-- Boucle de gestion de jobs -->
+			{% for background-jobs in page.background.background-jobs %}
+
+			<div class="jobs">
+				<div class="job-image" style="background-image:url({{background-jobs.image}})"></div>
+				<div class="job-infos">
+					<h3>{{background-jobs.title}}</h3>
+					<h4><a href="{{background-jobs.link}}">{{background-jobs.company}}</a></h4>
+					<div>{{background-jobs.place}}</div>
+					<div class="job-date">{{background-jobs.end-date}} - {{background-jobs.start-date}}</div>
+					
+				</div>
+				<div class="job-description">
+					<p>{{background-jobs.description | markdownify}}</p>
+				</div>
+			</div>
+			{% endfor %} 
+			
+			<!-- Education section -->
+			<!-- Education section title -->
+			<div class="jobs education" style="grid-row: span 2"> 
+				
+				<div style="fill: #fff; margin-bottom:20px;">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 14 14" role="img" focusable="false" aria-hidden="true"><path d="m 12.499079,12.25525 c 0.0968,0 0.188377,-0.0436 0.249339,-0.11884 0.06096,-0.0752 0.08473,-0.17385 0.06473,-0.26853 l -0.202146,-0.95662 c 0.115125,-0.11137 0.187491,-0.26686 0.187491,-0.43975 0,-0.182 -0.08106,-0.34343 -0.206876,-0.45558 l 0,-3.32202 -0.810333,0.50146 0,2.82056 c -0.125815,0.11215 -0.2069,0.27358 -0.2069,0.45558 0,0.17291 0.07239,0.32841 0.187515,0.43975 l -0.20217,0.95662 c -0.02,0.0947 0.0038,0.19335 0.06473,0.26853 0.06096,0.0752 0.152539,0.11884 0.249339,0.11884 l 0.625281,0 z M 12.773741,4.75539 7.5021019,1.49209 C 7.3477151,1.39699 7.1736728,1.34925 6.9996305,1.34925 c -0.1740423,0 -0.3482077,0.0477 -0.5016586,0.14284 l -5.271713,3.2633 C 1.0854931,4.84249 0.99999905,4.99633 0.99999905,5.1619 c 0,0.1656 0.085494,0.31949 0.22625985,0.40673 l 5.2716883,3.26333 c 0.153451,0.0952 0.3276163,0.14284 0.5016586,0.14284 0.1740423,0 0.3481092,-0.0477 0.5024714,-0.14284 L 12.773741,5.56863 c 0.140766,-0.0872 0.22626,-0.24113 0.22626,-0.40673 0,-0.16557 -0.08549,-0.31946 -0.22626,-0.40651 z M 6.9996059,9.78508 c -0.3283798,0 -0.6488777,-0.0912 -0.928242,-0.26411 l -3.0750017,-1.90368 0,3.27796 c 0,0.97016 1.7931578,1.7555 4.0032436,1.7555 2.2108742,0 4.0038842,-0.78536 4.0038842,-1.7555 l 0,-3.27796 -3.0748786,1.90368 C 7.6492472,9.69388 7.3279857,9.78508 6.9996059,9.78508 Z"/></svg>
+				</div>
+				<h3 style="font-size:38px;";>Education</h3>
+			</div>
+				<!-- Degree -->
+			<div class="jobs education" style="grid-row:span 3;">
+				
+				<div class="degree">
+					
+					{% for background-education in page.background.background-education %}
+					<div>
+						<h3>{{background-education.degree}}</h3>
+						<div>{{background-education.specialty}}</div>
+						<p>{{background-education.place | markdownify}}</p>
+					</div> 
+					{% endfor %} 
+				</div>
+
+			</div>
+			<!-- CV button -->
+			<div class="jobs education cv" style="grid-row: span 1;">
+				<a href="{{page.cvlink}}" class="cv-link">Download CV</a>
+			</div>
+		</div>  
+	</div>
+</div> 
+
+<!-- Skills --> 
+<!--<div id="skills" class="wrapper">
+	<h2 class="caps">Skills</h2>
+</div>-->
+
+<!-- Projects -->    
+<!--<div id="projects" class="wrapper">
+		<h2 class="caps">Projects</h2>
+	</div>-->
+
+
+<!-- Contact form -->
+<div id="contact" class="wrapper">
+	<h2 class="caps">Contact me !</h2>
+
+	<div class="grid50">
+		<h3>
+			Ready to connect? I'm just a message away!
+		</h3>
+		<div style="position:relative;">
+			<div class="form-message" hidden>Error or Win message</div>
+			<form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdaV-KdbBI6kf4oGFQ5RROskmqajMYb-hRH-ctbKHCFqBIWkw/formResponse">
+				<label>Name</label><br/>
+				<input type="text" name="entry.393927792" id="name" required>
+				<label>Email</label><br/>
+				<input type="mail" name="entry.1610294210" id="email" required>
+				<label>Message</label>
+				<textarea type="text" required maxlength="5000" name="entry.566675216" id="message"></textarea>
+				<label>Captcha. Please type: f38ce69rx</label>                
+				<input type="text" placeholder="f38ce69rx" name="entry.166478920" id="captcha" required>  
+				<div><input type="submit" id="submit" disabled></div>
+			</form>
 		</div>
+	</div>
 	
+		
+</div>
+        
 
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted){}"></iframe>
 	<script>
@@ -199,6 +134,77 @@ layout: default
 	</script>
 	
 	<script>
+	/* Si submit, affichage message OK */
+document.getElementById('gform').addEventListener('submit', function(e) {
+    
+    
+	let formMessage = document.querySelector(".form-message");
+	formMessage.hidden = false;
+	formMessage.style.opacity = "1";
+	formMessage.style.visibility = "visible";
+	formMessage.style.color = "green";
+	formMessage.style.transform = "translate(-50%, -50%) scale3d(1, 1, 1)";
+	formMessage.innerText = "Message successfully sent !";
+
+	setTimeout(function() {
+		formMessage.style.visibility = "hidden";
+		formMessage.style.opacity = "0";
+		formMessage.style.transform = "translate(-50%, -50%) scale3d(0,85, 0,85, 1)";
+		document.getElementById("name").value ="";
+		document.getElementById("email").value ="";
+		document.getElementById("message").value ="";
+		document.getElementById("captcha").value ="";
+    }, 3000);
+});
+
+/* Gestion du click sur bouton alors que capcha pas ok */
+
+
+document.getElementById('submit').parentElement.addEventListener('click', function(e) {
+	let captchaValue = document.getElementById('captcha').value;
+    let submitButton = document.getElementById('submit');
+
+
+		if (captchaValue !== "f38ce69rx") {
+			let formMessage = document.querySelector(".form-message");
+			formMessage.hidden = false;
+			formMessage.style.opacity = "1";
+			formMessage.style.visibility = "visible";
+			formMessage.style.transform = "translate(-50%, -50%) scale3d(1, 1, 1)";
+			formMessage.style.color = "red";
+			formMessage.innerText = "Wrong captcha";
+
+			setTimeout(function() {
+			formMessage.style.visibility = "hidden";
+			formMessage.style.opacity = "0";
+			formMessage.style.transform = "translate(-50%, -50%) scale3d(0,85, 0,85, 1)";
+			formMessage.style.color = "red";
+			}, 3000);
+
+		}
+
+});
+
+/* Changement couleur capcha quand OK */ 
+document.getElementById('captcha').addEventListener('input', function(e) {
+    let captchaValue = document.getElementById('captcha').value;
+    let submitButton = document.getElementById('submit');
+
+    if (captchaValue === "f38ce69rx") {
+        submitButton.disabled = false;
+        document.getElementById('captcha').style.color = 'green';
+		document.getElementById("captcha").style.fontWeight = "bold";
+
+    } else {
+        submitButton.disabled = true;
+        document.getElementById('captcha').style.color = 'red';
+    }
+});
+
+
+
+
+/*
 		$('#gform').on('submit', function(e){
 			$('#gform *').fadeOut(1000);
 			$("#confirm").delay(500).fadeIn(500);
@@ -215,11 +221,10 @@ layout: default
 				$('#captcha').css("color", "red");
 			}
 		});
-
+*/
 
 
 	</script>
-
 	<!-- FIN Contact GOOGLE -->
 
 	
