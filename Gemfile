@@ -10,6 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 #gem "jekyll", "~> 3.7.3"
 
+ruby '3.3.5'
+
 #gem 'public_suffix', '~> 5.0' 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
