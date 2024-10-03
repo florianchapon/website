@@ -14,7 +14,7 @@ layout: default
 				<!--<h1>-->{{page.heroheader.title | markdownify}}<!--</h1>--> 
 				<p>{{page.heroheader.subtitle | markdownify}}</p>
 			</div>
-			<div id="hero-picture" style="background-image:url({{pages.heroheader.image}})"></div>
+			<div id="hero-picture" style="background-image:url({{heroheader.image}})"></div>
 	</div>
 </div>
 
@@ -36,7 +36,7 @@ layout: default
 					</path>
 					</svg>
 				</div>
-				<h3 style="font-size: 38px;"">Work experience</h3>
+				<h3 style="font-size: 38px;">Work experience</h3>
 			</div>
 			
 			<!-- Boucle de gestion de jobs -->
@@ -46,7 +46,7 @@ layout: default
 				<div class="job-image" style="background-image:url({{background-jobs.image}})"></div>
 				<div class="job-infos">
 					<h3>{{background-jobs.title}}</h3>
-					<h4><a href="{{background-jobs.link}}">{{background-jobs.company}}</a></h4>
+					<h4><a href="{{background-jobs.link}}" target="_blank">{{background-jobs.company}}</a></h4>
 					<div>{{background-jobs.place}}</div>
 					<div class="job-date">{{background-jobs.end-date}} - {{background-jobs.start-date}}</div>
 					
@@ -83,7 +83,7 @@ layout: default
 			</div>
 			<!-- CV button -->
 			<div class="jobs education cv" style="grid-row: span 1;">
-				<a href="{{page.cvlink}}" class="cv-link">Download CV</a>
+				<a href="{{heroheader.cvlink}}" class="cv-link" target="_blank">Download CV</a>
 			</div>
 		</div>  
 	</div>
