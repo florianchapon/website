@@ -413,21 +413,21 @@ footer div {
 @media screen and (max-width: 1000px) {
 
     h1 {
-        font-size: 45px;
+        font-size: 45px !important;
     }
 
     .navbar-items {
-        padding: 0px 20px;
+        padding: 0px 20px !important;
     }
 
     .hero-section {
         grid-template-columns: 1fr !important;
         grid-template-rows: 100vh auto;
-        padding: 0 20px;
+        padding: 0 20px !important;
     }
 
     .wrapper {
-        padding: 75px 20px;
+        padding: 75px 20px !important;
     }
 
     .grid50 {
@@ -437,10 +437,7 @@ footer div {
     .section-background {
         grid-template-columns: 1fr !important;
     }
-    .jobs {
-      /*  width:100%; */
-    }
-
+    
     .degree {
         grid-template-columns: 1fr;
     }
