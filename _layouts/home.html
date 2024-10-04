@@ -83,11 +83,13 @@ layout: default
 			</div>
 			<!-- CV button -->
 			<div class="jobs education cv" style="grid-row: span 1;">
-				<a href="{{page.cvlink}}" class="cv-link" target="_blank">Download CV</a>
+				<a href="{{page.background.background-education.cvlink}}" class="cv-link" target="_blank">Download CV</a>
 			</div>
 		</div>  
 	</div>
 </div> 
+
+<!-- Future sections-->
 
 <!-- Skills --> 
 <!--<div id="skills" class="wrapper">
@@ -200,28 +202,6 @@ document.getElementById('captcha').addEventListener('input', function(e) {
         document.getElementById('captcha').style.color = 'red';
     }
 });
-
-
-
-
-/*
-		$('#gform').on('submit', function(e){
-			$('#gform *').fadeOut(1000);
-			$("#confirm").delay(500).fadeIn(500);
-		})
-
-
-		$('#captcha').on('input',function(e){
-			var captcha = $("#captcha").val();
-			if (captcha == "f38ce69rx") {
-				$('#submit').prop("disabled", false);
-				$('#captcha').css("color", "green");	
-			} else {
-				$('#submit').prop("disabled", true);
-				$('#captcha').css("color", "red");
-			}
-		});
-*/
 
 
 	</script>
