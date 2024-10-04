@@ -211,6 +211,8 @@ margin:auto;
 .jobs:nth-child(1) {
     grid-template-columns: 100%;
     width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
     background-color:var(--primary);
     color:#FFF;
     grid-row: span 2;
@@ -253,6 +255,8 @@ margin:auto;
     grid-template-columns: 100%;
     grid-row: span 2;
     width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
     color: #FFF;
 }
 
@@ -262,6 +266,8 @@ margin:auto;
     color:#FFF; 
     grid-template-columns: auto; 
     width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
 }
 
 
