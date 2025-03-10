@@ -4,7 +4,7 @@ heroheader:
   soustitre: Graphisme • Webdesign • Webdevelopment2
   banniere: /uploads/background.jpg
   hero-image: /uploads/hero-picture-nobg.png
-  image: /uploads/hero-picture-nobg.png
+  image: /uploads/hero-picture-nobg.webp
   title: "# I'm [Florian CHAPON.](https://florianchapon.github.io/web-test/) A
     product manager passionate about science and technology !"
   subtitle: Thank you for stopping by ! Specialized in electrochemistry and
